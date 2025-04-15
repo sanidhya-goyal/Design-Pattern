@@ -76,7 +76,18 @@ animal.makeSound();
 We know it's a Dog, but we can now use the animal reference polymorphically
 
 
-**Abstraction**
-**Encapsulation**
-**Polymorphism**
-**Inheritance**
+**Abstraction** `Expose what’s relevant, hide the rest`\
+Defining the interface or abstract class that specifies what an object can do, but not how it does it.
+Focusing on behavior, not implementation.
+
+
+**Encapsulation** `Hide data, expose behavior`\
+Bundling data (fields) and methods (functions) in a class.
+
+**Polymorphism** `One interface, many implementations`\
+Supertype reference to point to different subtype objects, and call their methods without knowing 
+exactly what type the object is at runtime.
+
+
+**Inheritance** `Code reuse (Parent Child relationship)`\
+Promotes code reuse and establishes an "is-a" relationship.
