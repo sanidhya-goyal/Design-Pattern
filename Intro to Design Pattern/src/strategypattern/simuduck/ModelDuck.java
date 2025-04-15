@@ -1,7 +1,7 @@
-package strategypattern;
+package strategypattern.simuduck;
 
-import strategypattern.implementation.FlyNoWay;
-import strategypattern.implementation.Quack;
+import strategypattern.simuduck.implementation.FlyNoWay;
+import strategypattern.simuduck.implementation.Quack;
 
 public class ModelDuck extends Duck{
     public ModelDuck() {

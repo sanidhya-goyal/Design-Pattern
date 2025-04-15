@@ -1,6 +1,6 @@
-package strategypattern;
+package strategypattern.simuduck;
 
-import strategypattern.implementation.FlyRocketPowered;
+import strategypattern.simuduck.implementation.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {

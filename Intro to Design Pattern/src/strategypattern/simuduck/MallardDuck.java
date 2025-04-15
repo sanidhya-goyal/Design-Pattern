@@ -1,10 +1,11 @@
-package strategypattern;
+package strategypattern.simuduck;
 
-import strategypattern.implementation.FlyWithWings;
-import strategypattern.implementation.Quack;
+import strategypattern.simuduck.implementation.FlyWithWings;
+import strategypattern.simuduck.implementation.Quack;
 
 public class MallardDuck extends Duck{
     public MallardDuck() {
+        System.out.println("MallardDuck Constructor called");
         quackBehavior = new Quack();
         flyBehavior = new FlyWithWings();
     }

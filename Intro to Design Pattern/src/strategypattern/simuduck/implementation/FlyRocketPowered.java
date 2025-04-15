@@ -1,6 +1,6 @@
-package strategypattern.implementation;
+package strategypattern.simuduck.implementation;
 
-import strategypattern.behavior.FlyBehavior;
+import strategypattern.simuduck.behavior.FlyBehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
     public void fly() {

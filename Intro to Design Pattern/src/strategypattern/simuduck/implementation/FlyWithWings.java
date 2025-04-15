@@ -1,6 +1,6 @@
-package strategypattern.implementation;
+package strategypattern.simuduck.implementation;
 
-import strategypattern.behavior.FlyBehavior;
+import strategypattern.simuduck.behavior.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
     public void fly() {
