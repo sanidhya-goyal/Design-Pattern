@@ -8,10 +8,6 @@ dependency between objects so that when one
 object changes state, all of its dependents are
 notified and updated automatically.
 
-- The subject and observers define the one-to-many relationship.
-- The observers are dependent on the subject such that when the
-subject’s state changes, the observers get notified.
-
 ![ObserverPattern.png](weather_o_rama/resources/ObserverPattern.png)
 
 #### The power of Loose Coupling
