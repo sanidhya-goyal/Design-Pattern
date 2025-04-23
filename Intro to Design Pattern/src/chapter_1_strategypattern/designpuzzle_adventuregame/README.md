@@ -8,4 +8,4 @@ is defined in the Character superclass. During a fi ght the useWeapon()
 method is called on the current weapon set for a given character to infl ict
 great bodily damage on another character.
 
-![designpuzzle_adventuregame.png](../resources/designpuzzle_adventuregame.png)
+![designpuzzle_adventuregame.png](../../resources/chapter_1_strategypattern/designpuzzle_adventuregame.png)

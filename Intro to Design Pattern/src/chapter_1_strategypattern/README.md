@@ -27,9 +27,9 @@ those that don’t.
   pull both methods out of the Duck class and create a
   new set of classes to represent each behavior.
 
-  ![Duck1.jpg](resources/Duck1.jpg)
+  ![Duck1.jpg](../resources/chapter_1_strategypattern/Duck1.jpg)
   
-![Duck2.jpeg](resources/Duck2.jpeg)
+![Duck2.jpeg](../resources/chapter_1_strategypattern/Duck2.jpeg)
 
 > [!IMPORTANT]
 >OO Principles
@@ -38,9 +38,8 @@ those that don’t.
 >- Program to interfaces, not implementations.
 
 **OO Patterns**\
-Strategy - defines a family of algorithms,
-encapsulates each one, and makes them
-interchangeable. Strategy lets the algorith
+Strategy - defines a family of algorithms, encapsulates each one, and makes them
+interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 
 

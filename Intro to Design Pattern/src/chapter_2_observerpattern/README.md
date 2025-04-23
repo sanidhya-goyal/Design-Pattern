@@ -8,11 +8,7 @@ dependency between objects so that when one
 object changes state, all of its dependents are
 notified and updated automatically.
 
-- The subject and observers define the one-to-many relationship.
-- The observers are dependent on the subject such that when the
-subject’s state changes, the observers get notified.
-
-![ObserverPattern.png](weather_o_rama/resources/ObserverPattern.png)
+![ObserverPattern.png](../resources/chapter_2_observerpattern/ObserverPattern.png)
 
 #### The power of Loose Coupling
 - When two objects are loosely coupled, they can interact,
@@ -32,3 +28,14 @@ subjects and observers are loosely coupled.
 **Design Principle**\
 Strive for loosely coupled designs
 between objects that interact.
+
+
+- The Observer Pattern defines a one-to-many relationship between objects.
+- Subjects, or as we also know them, Observables, update Observers using a common interface.
+- Observers are loosely coupled in that the Observable knows nothing about them, 
+other than that they implement the Observer Interface.
+- You can push or pull the data from Observable when using the pattern(pull is  considered more correct).
+- Don't depend on specific order of notification for your Observers.
+- Swing makes heavy use of the Observer Pattern, as do many GUI frameworks.
+
+![Design Principle challenge.png](../resources/chapter_2_observerpattern/Design%20Principle%20challenge.png)
